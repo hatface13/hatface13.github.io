@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+
+    <general>
+        <title>
+            <langstring>A Bigger Stapler</langstring>
+        </title>
+        <!-- If you know the locale, enter it here, if not, leave this as en-->
+        <language>en-US</language>
+        <!-- Manifest->Course.Description. If that doesn't exist, replace with Project Information-> Description. If that is empty, just leave "Description"-->
+        <description>
+            <langstring>This is a Content Controller Dispatch package which targets the course A Bigger Stapler</langstring>
+        </description>
+    </general>
+    <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+    </metametadata>
+    <technical>
+        <format>text/html</format>
+        <format>application/x-javascript</format>
+        <format>text/css</format>
+        <location>dispatch.html</location>
+        <!-- replace with your launch page-->
+    </technical>
+</lom>
